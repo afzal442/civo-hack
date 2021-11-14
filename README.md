@@ -2,4 +2,15 @@
 
 # civo-hackathon
 
+## Inspiration
+Insipired by Containers produced by Docker and deployment with Kubernetes
+
+## What it does
+It allows being able to curate backend service with made easy.
+
+## How we built it
+It is built with docker on top of kubernetes platform, designed with API.
+
+## Accomplishments that we're proud of
+Kubernetes and CIVO cli
 
