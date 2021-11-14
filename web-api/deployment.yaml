@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web4api-deployment
+  labels:
+    app: web4api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: web4api
+  template:
+    metadata:
+      labels:
+        app: web4api
+    spec:
+      containers:
+      - name: web4api
+        image: web3api:v1
+        ports:
+        - containerPort: 5000

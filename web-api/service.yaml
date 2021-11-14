@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: web4api-dev
+  labels:
+    app: web4api-dev
+spec:
+  selector:
+    app: web4api-dev
+  ports:
+    - name: "webapi"
+      protocol: TCP
+      port: 5000
+  
