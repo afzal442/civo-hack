@@ -1,9 +1,9 @@
-<a href="https://github.com/afzal442/go_prac/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/afzal442/go_prac"></a> <a href="https://github.com/afzal442/go_prac/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/afzal442/go_prac"></a>
+<a href="https://github.com/afzal442/civo-hack/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/afzal442/civo-hack"></a> <a href="https://github.com/afzal442/civo-hack/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/afzal442/civo-hack"></a>
 
 # civo-hackathon
 
 ## Inspiration
-Insipired by Containers managed by Docker and deployment with Kubernetes
+Inspired by Containers managed by Docker and deployment with Kubernetes
 
 ## What it does
 It allows being able to curate backend service with made easy.
