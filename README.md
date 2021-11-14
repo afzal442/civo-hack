@@ -3,7 +3,7 @@
 # civo-hackathon
 
 ## Inspiration
-Insipired by Containers produced by Docker and deployment with Kubernetes
+Insipired by Containers managed by Docker and deployment with Kubernetes
 
 ## What it does
 It allows being able to curate backend service with made easy.
