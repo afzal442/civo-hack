@@ -1,14 +1,15 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: web4api-dev
+  name: web4api-deployment
   labels:
-    app: web4api-dev
+    app: web4api
 spec:
   selector:
-    app: web4api-dev
+    app: web4api
   ports:
-    - name: "webapi"
+    - name: http
       protocol: TCP
       port: 5000
+      targetPort: 8080
   

@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: web4api
-        image: web3api:v1
+        image: afzal442/web4api:v1
         ports:
         - containerPort: 5000

@@ -4,17 +4,17 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: traefik
   labels:
-    app: web4api-dev
+    app: web4api
   name: web4api-ingress
 spec:
   rules:
-    - host: web4api-dev.5185663b-0e6f-4f64-b55b-27c52e010f34.k8s.civo.com
+    - host: webapi.5185663b-0e6f-4f64-b55b-27c52e010f34.k8s.civo.com
       http:
         paths:
           -
             backend:
               service:
-                name: web4api-dev
+                name: web4api-deployment
                 port:
                   number: 5000
             path: /
