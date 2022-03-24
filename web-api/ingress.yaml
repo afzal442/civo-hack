@@ -5,7 +5,7 @@ metadata:
     kubernetes.io/ingress.class: traefik
   labels:
     app: web4api
-  name: web4api-ingress
+  name: web4api-ingresss
 spec:
   rules:
     - host: webapi.5185663b-0e6f-4f64-b55b-27c52e010f34.k8s.civo.com
