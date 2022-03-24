@@ -6,7 +6,7 @@ import (
 
 func main() {
 
-	// Initialize the routes
+	// Initialize the routes for you
 	r := routes.InitializeRoutes()
 
 	// Start serving the application
