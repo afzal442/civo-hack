@@ -12,7 +12,7 @@ func InitializeRoutes() *gin.Engine {
 
 	router := gin.Default()
 
-	// Handle the routes
+	// Handle the routes yup
 	router.GET("/articles", handlers.GetArticles)
 	router.GET("/articles/:id", handlers.GetArtByID)
 	router.POST("/articles", handlers.PostArticles)
